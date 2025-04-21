@@ -175,11 +175,13 @@
     font-size: 1rem;
     color: #111827;
   }
-  
+
+
   .contact-form textarea {
     resize: none;
   }
-  
+
+
   .contact-form button {
     background-color: white;
     color: #5c6ac4;
