@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hello World</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>web system project</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello world</h1>
-  <p>Hello world.</p>
+  <!-- Decorative Background Shapes -->
+  <div class="background-shapes"></div>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">My Logo</div>
+    <nav class="nav-links">
+      <a href="#">Portfolio</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>I’m Abdulhakim.<br />Glad to see you!</h1>
+    <p>
+      I’m a software developer! I can help you build a product, feature or website. Look through
+      some of my work and experience! If you like what you see and have a project you need
+      coded, don’t hesitate to contact me.
+    </p>
+    <div class="connect">
+      <span>LET'S CONNECT</span>
+      <div class="social-icons">
+        <span><ion-icon name="logo-twitter"></ion-icon></span>
+        <span><ion-icon name="logo-linkedin"></ion-icon></span>
+        <span><ion-icon name="logo-medium"></ion-icon></span>
+        <span><ion-icon name="logo-github"></ion-icon></span>
+        <span>✌️</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Cards -->
+  <section class="projects">
+    <div class="project-card">
+      <img src="admin.jpg" alt="Tonic Project">
+      <div class="project-content">
+        <h2>Tonic</h2>
+        <p class="project-meta">CANOPY • Back End Dev • 2015</p>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <div class="tags">
+          <span><ion-icon name="logo-html5"></ion-icon></span>
+          <span><ion-icon name="logo-css3"></ion-icon></span>
+          <span><ion-icon name="logo-javascript"></ion-icon></span>
+        </div>
+        <a href="#" class="project-btn">See project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="dash.jpg" alt="Multi-Post Stories">
+      <div class="project-content">
+        <h2>Multi-Post Stories</h2>
+        <p class="project-meta">FACEBOOK • Full Stack Dev • 2015</p>
+        <p>
+          Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+        </p>
+        <div class="tags">
+          <span><ion-icon name="logo-html5"></span>
+          <span>ruby on rails</span>
+          <span><ion-icon name="logo-javascript"></span>
+        </div>
+        <a href="#" class="project-btn">See project</a>
+      </div>
+    </div>
+  </section>
+   <!-- Contact Section -->
+<section class="contact">
+    <div class="contact-content">
+      <h2>Contact me</h2>
+      <p>
+        If you have an application you are interested in developing, a feature that you need built or a project
+        that needs coding, I’d love to help with it!
+      </p>
+      <form class="contact-form">
+        <input type="text" placeholder="Lorem Ipsum" required />
+        <input type="email" placeholder="loremipsum@gmail.com" required />
+        <textarea placeholder="Write your message here..." rows="6" required></textarea>
+        <button type="submit">Get in touch</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
