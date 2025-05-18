@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abdulhakim's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Decorative Background Shapes -->
@@ -13,31 +13,35 @@
 
   <!-- Header -->
   <header class="navbar">
-    <div class="logo">Abdulhakim</div>
+    <div class="logo">My Logo</div>
     <nav class="nav-links">
       <a href="#portfolio">Portfolio</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
     <button class="menu-toggle" aria-label="Toggle menu">
-      <ion-icon name="menu-outline"></ion-icon>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </button>
   </header>
 
   <!-- Hero Section -->
   <section class="hero" id="about">
-    <h1>Hi, I’m Abdulhakim.<br />Welcome!</h1>
-    <p>
-      I’m a passionate software developer crafting innovative products, features, and websites. 
-      Explore my work and experience, and let’s connect to bring your ideas to life!
-    </p>
-    <div class="connect">
-      <span>LET'S CONNECT</span>
-      <div class="social-icons">
-        <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
-        <a href="#" aria-label="Medium"><ion-icon name="logo-medium"></ion-icon></a>
-        <a href="#" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+    <div class="hero-content">
+      <h1>I’m Abdulhakim.<br />Glad to see you!</h1>
+      <p>
+        I’m a software developer! I can help you build a product, feature, or website. Look through
+        some of my work and experience! If you like what you see and have a project you need coded,
+        don’t hesitate to contact me.
+      </p>
+      <div class="connect">
+        <span>LET'S CONNECT</span>
+        <div class="social-icons">
+          <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="#" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
       </div>
     </div>
   </section>
@@ -45,32 +49,112 @@
   <!-- Project Cards -->
   <section class="projects" id="portfolio">
     <div class="project-card">
-      <img src="admin.jpg" alt="Tonic Project">
-      <div class="project-content">
+      <div class="project-image">
+        <img src="admin.jpg" alt="Tonic Project">
+      </div>
+      <div class="project-details">
         <h2>Tonic</h2>
         <p class="project-meta">CANOPY • Back End Dev • 2015</p>
-        <p>A curated selection of personalized reads, no account or sign-up needed.</p>
+        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
         <div class="tags">
           <span>HTML</span>
           <span>CSS</span>
-          <span>JavaScript</span>
+          <span>JS</span>
         </div>
         <a href="#" class="project-btn">See Project</a>
       </div>
     </div>
-
     <div class="project-card">
-      <img src="dash.jpg" alt="Multi-Post Stories">
-      <div class="project-content">
+      <div class="project-image">
+        <img src="dash.jpg" alt="Multi-Post Stories Project">
+      </div>
+      <div class="project-details">
         <h2>Multi-Post Stories</h2>
         <p class="project-meta">FACEBOOK • Full Stack Dev • 2015</p>
-        <p>An experimental feature for collaborative story creation without spamming friends.</p>
+        <p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
         <div class="tags">
           <span>HTML</span>
-          <span>Ruby on Rails</span>
-          <span>JavaScript</span>
+          <span>Ruby</span>
+          <span>JS</span>
+          <span>CSS</span>
         </div>
         <a href="#" class="project-btn">See Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-image">
+        <img src="Web-Marketing-Digital-Studio-Facebook-Cover-Template-scaled.jpg" alt="Facebook 360 Project">
+      </div>
+      <div class="project-details">
+        <h2>Facebook 360</h2>
+        <p class="project-meta">FACEBOOK • Full Stack Dev • 2015</p>
+        <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Oculus VR.</p>
+        <div class="tags">
+          <span>HTML</span>
+          <span>Ruby</span>
+          <span>CSS</span>
+          <span>JS</span>
+        </div>
+        <a href="#" class="project-btn">See Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-image">
+        <img src="uber-homepage-redesign.png" alt="Uber Navigation Project">
+      </div>
+      <div class="project-details">
+        <h2>Uber Navigation</h2>
+        <p class="project-meta">UBER • Lead Developer • 2018</p>
+        <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+        <div class="tags">
+          <span>HTML</span>
+          <span>Ruby</span>
+          <span>CSS</span>
+          <span>JS</span>
+        </div>
+        <a href="#" class="project-btn">See Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Myself Section -->
+  <section class="about" id="about-me">
+    <div class="about-container">
+      <div class="about-content">
+        <h2>About Myself</h2>
+        <p>
+          Hello! I’m a software developer who can help you build a product, feature, or website. Look through my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+        </p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="#" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <a href="#" class="resume-btn">Get my resume</a>
+      </div>
+      <div class="skills-content">
+        <details class="skills-section">
+          <summary>Languages</summary>
+          <div class="skills-list">
+            <span><ion-icon name="logo-javascript"></ion-icon> JavaScript</span>
+            <span><ion-icon name="logo-html5"></ion-icon> HTML</span>
+            <span><ion-icon name="logo-css3"></ion-icon> CSS</span>
+          </div>
+        </details>
+        <details class="skills-section">
+          <summary>Frameworks</summary>
+          <div class="skills-list">
+            <span><ion-icon name="logo-react"></ion-icon> React</span>
+            <span><ion-icon name="logo-nodejs"></ion-icon> Node.js</span>
+          </div>
+        </details>
+        <details class="skills-section">
+          <summary>Skills</summary>
+          <div class="skills-list">
+            <span>UI/UX</span>
+            <span>API</span>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -80,21 +164,13 @@
     <div class="contact-content">
       <h2>Contact Me</h2>
       <p>
-        Got an app idea, a feature to build, or a project needing code? I’m here to help—let’s make it happen!
+        If you have an application you are interested in developing, a feature that you need built, or a project
+        that needs coding, I’d love to help with it!
       </p>
       <form class="contact-form">
-        <div class="form-group">
-          <input type="text" placeholder="Name" required />
-          <span class="form-error" id="name-error">Name must be at least 2 characters</span>
-        </div>
-        <div class="form-group">
-          <input type="email" placeholder="Email" required />
-          <span class="form-error" id="email-error">Please enter a valid email</span>
-        </div>
-        <div class="form-group">
-          <textarea placeholder="Write your message here..." rows="6" required></textarea>
-          <span class="form-error" id="message-error">Message must be at least 10 characters</span>
-        </div>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Write your message here..." rows="6" required></textarea>
         <button type="submit">Get in Touch</button>
       </form>
     </div>
